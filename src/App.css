@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F08080;
+
+}
+
+.appCon{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.appwrapper {
+    background-color: #fff;
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.pepoleImg{
+    width :"10px";
+    border-radius: 50%;
+}
+.birthCon{
+    display: flex;
+     margin: 25px 30px;
+     
+}
+.pepoleabout{
+    margin: 0px 20px;
+}
+.toptitle{
+margin:20px 20px;
+}
+.allclear{
+    background-color: #F08080;
+    padding: 8px;
+    border: none;
+    outline: none;
+    width: 300px;
+    margin-left: 40px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.allclear:hover{
+    background-color: transparent;
+    border: 0.5px solid #F08080;
+}
+@media only screen and (max-width: 600px) {
+    .appwrapper {
+        background-color: #fff;
+        width: 300px;
+        height: 500px;
+    }
+    .allclear{
+        background-color: #F08080;
+        padding: 8px;
+        border: none;
+        outline: none;
+        width: 300px;
+        margin-left: 40px;
+        border-radius: 5px;
+    }
+    .allclear{
+        background-color: #F08080;
+        padding: 8px;
+        border: none;
+        outline: none;
+        width: 200px;
+        margin-left: 40px;
+        border-radius: 5px;
+    }
+  }
